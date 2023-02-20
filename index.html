@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h2>JS Functions</h2>
+
+
+    <h3>Function Without Parameters</h3>
+    <p>function(){<br /><br />}</p>
+
+
+    <br /><br /><br />
+
+    <h3>Function With Parameters</h3>
+    <p>function(a,b){<br /><br />}</p>
+
+    <h3>Function With Return Value</h3>
+    <p>function(a,b){<br/>return a*b<br/>}</p>
+
+    <p id="test"></p>
+
+    <script>
+        function greet() {
+            alert('good morning...')
+        }
+
+        greet() // function call or trigger
+
+
+        function addNumbers(a,b) {
+            var result = a + b;
+            alert(result)
+        }
+
+        addNumbers(2, 3) // function call or trigger
+
+        document.getElementById('test').innerHTML = returnValue(2,3);
+
+
+        function returnValue(a,b) {
+            return a * b;
+        }
+
+        
+
+
+
+        /*
+         * 
+         * this is a function with parameters ==> params being req and res
+         app.get('/', function(req, res){
+
+
+
+
+         })
+         */
+
+    </script>
+</body>
+</html>
